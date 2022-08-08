@@ -1,0 +1,4 @@
+1. SELECT LastName, FirstName, Notes FROM [Employees] where LastName = 'Leverling';
+2. SELECT * FROM [Employees] where BirthDate > '1960%';
+3. SELECT BirthDate FROM [Employees] where FirstName like 'A%';
+4. SELECT FirstName, LastName, BirthDate FROM [Employees] order by BirthDate.

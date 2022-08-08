@@ -1,0 +1,7 @@
+1. SELECT * FROM [Customers] where City = 'London';
+2. SELECT ContactName, CustomerName FROM [Customers] where Address like '%23';
+3. SELECT distinct city FROM [Customers];
+4. SELECT * FROM [Customers] where PostalCode like '0%';
+5. SELECT * FROM [Customers] where Country not like'USA';
+6. SELECT * FROM [Customers] where Country = 'France' order by ContactName  desc;
+7. SELECT * FROM [Customers] where Country = 'USA' or Country = 'Germany' limit 10.

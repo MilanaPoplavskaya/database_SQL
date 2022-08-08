@@ -1,0 +1,6 @@
+1. SELECT * FROM [Products] where productname like 'M%';
+2. SELECT unit FROM [Products] where ProductName = 'Steeleye Stout'
+3. SELECT * FROM [Products] where price > 22;
+4. SELECT * FROM [Products] where Unit like '%500 g' or '%250 g';
+5. SELECT * FROM [Products] where unit like '%bottles';
+6. SELECT * FROM [Products] where SupplierID = 7 order by Price desc.
